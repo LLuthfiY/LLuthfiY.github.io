@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    <style>
+        /*font*/
+        @font-face {
+            font-family: josefin;
+            src: url(JosefinSans-Thin.ttf);
+        }
+        @font-face {
+            font-family: Emelynd;
+            src: url(src/font/EmelyndLight.otf);
+        }
+        @font-face {
+            font-family: sacramento;
+            src: url(src/font/Sacramento-Regular.ttf);
+        }
+        @font-face {
+            font-family: nycd;
+            src: url(src/font/NothingYouCouldDo-Regular.ttf);
+        }
+    </style>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Portfolio</title>
+    </head>
+
+    <body>
+        <nav>
+            <div id="hovernav" class="hovernav" style="display: flex;">
+                <p class="project">Still doesn't have any project yet</p>
+                <a class="navbar-button" id="navbar-button">
+                    <img
+                        class="hamburger"
+                        id="hamburger"
+                        src="src/Image/Hamburger_icon.svg"
+                        alt="TAP"
+                    />
+                </a>
+            </div>
+            <div class="logo-container noHover" style="display: flex;">
+                <img
+                    class="profile noHover"
+                    src="src/Image/LLuthColorAble.svg"
+                    alt="Image image-profile"
+                />
+            </div>
+        </nav>
+        <div style="height: 50vw; background-color: #111111; overflow: hidden;">
+            <img
+                id="glasses"
+                class="topImage"
+                src="src/Image/glasses3.jpg"
+                alt="glasses"
+            />
+        </div>
+        <div
+            style="background-color: whitesmoke; width: 100%; height: 1px;"
+        ></div>
+        <div class="blackBackground" style="height: 2000px; padding-top: 50px;">
+            <div class="biodata-box box-name">
+                <h1 class="biodata-text name">
+                    MUHAMMAD LUTHFI ALBIANSYAH
+                </h1>
+            </div>
+            <dic class="biodata-box box-city">
+                <p class="biodata-text city">Bogor, Id</p>
+            </dic>
+        </div>
+        <div
+            id="work-at-section"
+            style="background-color: #111111; height: 4000px;"
+        >
+            <h1 class="work-at" id="work-at">WORK AT :</h1>
+            <p class="work-at" id="work-at-text">
+                naaaah, i'm still in collage
+            </p>
+        </div>
+
+        <link rel="stylesheet" href="src/css/style.css" />
+        <link rel="stylesheet" href="src/css/navbar.css" />
+        <link rel="stylesheet" href="src/css/topImage.css" />
+        <link rel="stylesheet" href="src/css/biodata.css" />
+        <link rel="stylesheet" href="src/css/workAt.css" />
+
+        <script src="src/js/scrollevent.js"></script>
+        <script src="src/js/hovernavbar.js"></script>
+        <script src="src/js/lockNavbar.js"></script>
+
+        <div style="height: 400px;">
+            <p
+                style="
+                    text-align: center;
+                    font-family: josefin;
+                    font-size: 3vw;
+                    color: whitesmoke;
+                "
+            >
+                LLuthfiY@outlook.com
+            </p>
+        </div>
+    </body>
+</html>
