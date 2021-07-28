@@ -1,0 +1,8 @@
+.topImage {
+    width: 100%;
+    filter: opacity(10%) grayscale(100%);
+}
+
+.gradient {
+    width: 100%;
+}

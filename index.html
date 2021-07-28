@@ -18,6 +18,10 @@
             font-family: nycd;
             src: url(src/font/NothingYouCouldDo-Regular.ttf);
         }
+        @font-face {
+            font-family: pixel;
+            src: url(src/font/Pixel.ttf);
+        }
     </style>
     <head>
         <meta charset="UTF-8" />
@@ -28,7 +32,7 @@
     <body>
         <nav>
             <div id="hovernav" class="hovernav" style="display: flex;">
-                <p class="project">Still doesn't have any project yet</p>
+                <p class="project">Still doesn't have any project yet :'(</p>
                 <a class="navbar-button" id="navbar-button">
                     <img
                         class="hamburger"
@@ -46,18 +50,15 @@
                 />
             </div>
         </nav>
-        <div style="height: 50vw; background-color: #111111; overflow: hidden;">
-            <img
-                id="glasses"
-                class="topImage"
-                src="src/Image/glasses3.jpg"
-                alt="glasses"
-            />
+        <div
+            style="height: 100vh; background-color: #111111; overflow: hidden;"
+        >
+            <img id="glasses" class="topImage" src="" alt="glasses" />
         </div>
         <div
             style="background-color: whitesmoke; width: 100%; height: 1px;"
         ></div>
-        <div class="blackBackground" style="height: 2000px; padding-top: 50px;">
+        <div class="blackBackground" style="height: 1000px; padding-top: 50px;">
             <div class="biodata-box box-name">
                 <h1 class="biodata-text name">
                     MUHAMMAD LUTHFI ALBIANSYAH
@@ -69,12 +70,40 @@
         </div>
         <div
             id="work-at-section"
-            style="background-color: #111111; height: 4000px;"
+            style="
+                background-color: #111111;
+                max-height: 2000px;
+                min-height: 2000px;
+                position: relative;
+            "
         >
-            <h1 class="work-at" id="work-at">WORK AT :</h1>
-            <p class="work-at" id="work-at-text">
+            <h1 class="work-at" id="work-at" style="position: relative;">
+                WORK AT :
+            </h1>
+            <p class="work-at" id="work-at-text" style="position: relative;">
                 naaaah, i'm still in collage
             </p>
+        </div>
+        <div
+            id="lang-section"
+            style="
+                background-color: #111111;
+                padding-top: 100px;
+                max-height: 3000px;
+                min-height: 3000px;
+                padding-top: 50px;
+                position: relative;
+            "
+        >
+            <h1 class="lang-text" id="lang-text">Languages that i've learn</h1>
+
+            <img id="javascript" src="src/Image/javascript.svg" alt="" />
+            <img src="src/Image/Cs.svg" alt="" id="cs" />
+            <img src="src/Image/java.svg" alt="" id="java" />
+            <img src="src/Image/rust_logo_edited.svg" alt="" id="rust" />
+            <img src="src/Image/Kotlin_logo_edited.svg" alt="" id="kotlin" />
+            <img src="src/Image/python.svg" alt="" id="python" />
+            <h1 class="lang-text" id="and-more">... and more</h1>
         </div>
 
         <link rel="stylesheet" href="src/css/style.css" />
@@ -82,6 +111,7 @@
         <link rel="stylesheet" href="src/css/topImage.css" />
         <link rel="stylesheet" href="src/css/biodata.css" />
         <link rel="stylesheet" href="src/css/workAt.css" />
+        <link rel="stylesheet" href="src/css/lang.css" />
 
         <script src="src/js/scrollevent.js"></script>
         <script src="src/js/hovernavbar.js"></script>

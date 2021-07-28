@@ -1,0 +1,18 @@
+:root {
+    --blackpastel: #222222;
+    --darkgreen: #447755;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--blackpastel);
+}
+
+.noHover {
+    pointer-events: none;
+}

@@ -1,0 +1,62 @@
+.blackBackground {
+    background-color: #111111;
+    padding-bottom: 500px;
+}
+
+.biodata-text {
+    font-family: Josefin;
+    color: whitesmoke;
+    margin-left: 5%;
+
+    align-content: center;
+}
+
+.name {
+    margin-top: auto;
+    margin-bottom: auto;
+    color: #111111;
+    max-width: 50%;
+    font-size: 8vw;
+}
+
+.city {
+    font-family: Emelynd;
+    font-size: 4vw;
+    margin-top: -0vw;
+    white-space: nowrap;
+}
+
+.biodata-box {
+    margin-left: 5%;
+    overflow: hidden;
+}
+
+.box-name {
+    margin-top: 600px;
+    max-width: 0%;
+    height: 35vw;
+    background-color: lightgrey;
+    display: flex;
+    transition: 500ms;
+}
+
+.box-city {
+    margin-top: 3vw;
+    background-color: #111111;
+    height: 7vw;
+    max-width: 0%;
+    display: flex;
+    transition: 500ms;
+}
+
+/*scrolled ===================================================*/
+
+.box-name.scrolled {
+    max-width: 60%;
+    transition: 500ms;
+}
+
+.box-city.scrolled {
+    max-width: 20%;
+    transition: 500ms;
+}

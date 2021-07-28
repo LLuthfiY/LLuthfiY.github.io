@@ -1,0 +1,139 @@
+nav {
+    position: fixed;
+    width: 94%;
+    height: 50px;
+    margin: 2% 2% 2% 2%;
+    z-index: 1;
+    max-height: 50px;
+}
+
+.profile {
+    height: 100px;
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    filter: invert(100%) opacity(60%);
+    transition: all 500ms;
+}
+
+.logo-container {
+    width: 100%;
+    margin-top: -50px;
+    align-content: flex-start;
+    transition: all 500ms;
+}
+
+.hovernav {
+    height: 50px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.055);
+    overflow: hidden;
+    transition: all 500ms;
+}
+
+.navbar-button {
+    margin-left: auto;
+    margin-right: 0%;
+    background-color: transparent;
+
+    height: 50px;
+    width: 50px;
+}
+
+.hamburger {
+    vertical-align: middle;
+    align-self: center;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    filter: invert(100%);
+    transition: 500ms;
+}
+
+.project {
+    font-family: josefin;
+    margin-top: 60px;
+    margin-left: 5%;
+    font-size: 2vw;
+}
+
+/* hover ============================================================================ */
+
+.profile.hover {
+    height: 20px;
+
+    margin-top: 15px;
+    margin-bottom: 10px;
+    filter: invert(0%);
+    transition: all 500ms;
+}
+
+.logo-container.hover {
+    width: 15%;
+    transition: all 500ms;
+}
+
+.hovernav.hover {
+    background-color: whitesmoke;
+    height: 300px;
+    transition: all 500ms;
+}
+
+.hamburger.hover {
+    filter: invert(0%);
+    transition: 500ms;
+}
+
+/* lock ============================================================================ */
+
+.profile.lock {
+    height: 20px !important;
+
+    margin-top: 15px !important;
+    margin-bottom: 10px !important;
+    filter: invert(0%) !important;
+    transition: all 500ms !important;
+}
+
+.logo-container.lock {
+    width: 15% !important;
+    transition: all 500ms !important;
+}
+
+.hovernav.lock {
+    background-color: whitesmoke !important;
+    height: 300px !important;
+    transition: all 500ms !important;
+}
+
+.hamburger.lock {
+    filter: invert(0%);
+    transition: 500ms;
+}
+
+/* scrolled ========================================================================= */
+
+.profile.scrolled {
+    height: 20px;
+
+    margin-top: 15px;
+    margin-bottom: 10px;
+    filter: invert(0%);
+    transition: all 500ms;
+}
+
+.logo-container.scrolled {
+    width: 15%;
+    transition: all 500ms;
+}
+
+.hovernav.scrolled {
+    background-color: whitesmoke;
+
+    transition: all 500ms;
+}
+
+.hamburger.scrolled {
+    filter: invert(0%);
+    transition: 500ms;
+}
