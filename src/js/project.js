@@ -12,7 +12,7 @@ fetch("https://raw.githubusercontent.com/LLuthfiY/LLuthfiY.github.io/master/src/
 function create_card(name, link, image, type) {
     card_container = document.getElementById("card-container");
     card_container.innerHTML += `
-                        <a href="`+link+`"cc class="col-12 col-lg-3 col-md-6 `+type+`">
+                        <a href="`+link+`"cc class="col-12 col-lg-3 col-md-6 mb-2 `+type+`">
                             <div class="card p-0 h-auto bg-dark">
                                 
                                 <img src="`+image+`" class=" w-100 card-img opacity-50" alt="">
