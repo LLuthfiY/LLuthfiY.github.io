@@ -1,0 +1,16 @@
+{   
+    "data": [
+        {
+            "type" : "program",
+            "nama_project" : "Pixel Art with Palette",
+            "link" : "https://github.com/LLuthfiY/Pixel_Art_With_Palette",
+            "image" : "https://raw.githubusercontent.com/LLuthfiY/Pixel_Art_With_Palette/main/Mead-LittleHouseBigWoods.jpg-pixel2.jpg"
+        },
+        {
+            "type" : "program",
+            "nama_project" : "Simple Manga Reader UWP",
+            "link" : "https://github.com/LLuthfiY/SimpleMangaReaderUWP",
+            "image":"https://raw.githubusercontent.com/LLuthfiY/SimpleMangaReaderUWP/master/screenshot/main.png"
+        }
+    ]
+}

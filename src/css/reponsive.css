@@ -1,0 +1,23 @@
+@media (max-width:1028px) {
+    .side-bar{
+        position: absolute;
+        background-color: rgb(17, 17, 17);
+        z-index: 999;
+        transition: all 200ms;
+    }
+    .side-bar.hide-sidebar{
+        transition: all 200ms;
+        transform: translateX(-300px);
+    }
+    .main-coloumn{
+        width: 100vw !important;
+    }
+    .abs-btn{
+        width: fit-content;
+        height: fit-content;
+        visibility:visible;
+        position: absolute;
+        right: 20px;
+        top: 50px;
+    }
+}
