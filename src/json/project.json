@@ -11,6 +11,12 @@
             "nama_project": "Simple Manga Reader UWP",
             "link": "https://github.com/LLuthfiY/SimpleMangaReaderUWP",
             "image": "https://raw.githubusercontent.com/LLuthfiY/SimpleMangaReaderUWP/master/screenshot/main.png"
+        },
+        {
+            "type": "program",
+            "nama_project": "Quiz PDF Generator",
+            "link": "quiz_Generator.html",
+            "image": "https://raw.githubusercontent.com/LLuthfiY/SimpleMangaReaderUWP/master/screenshot/main.png"
         }
     ]
 }
