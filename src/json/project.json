@@ -16,7 +16,7 @@
             "type": "program",
             "nama_project": "Quiz PDF Generator",
             "link": "quiz_Generator.html",
-            "image": "https://raw.githubusercontent.com/LLuthfiY/SimpleMangaReaderUWP/master/screenshot/main.png"
+            "image": "src/Image/question_pdf_generator.png"
         }
     ]
 }
