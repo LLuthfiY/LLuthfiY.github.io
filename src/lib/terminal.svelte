@@ -57,7 +57,7 @@
 </script>
 
 <div
-	class="terminal m-auto bg-chalk-black min-w-[400px] w-[50%] h-[300px] rounded-lg p-4 "
+	class="terminal m-auto bg-chalk-black min-w-[400px] w-[60%] h-[300px] rounded-lg p-4 "
 	on:click={focusToLastInput}
 >
 	<div id="terminal-body" class="terminal-body p-4 h-full overflow-y-auto sc3">
